@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        import React, { useState } from 'react';
+
+function App() {
+  const [nama, setNama] = useState('');
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    alert(`Halo, ${nama}!`);
+  }
+
+  return (
+    <div>
+      <form onSubmit={handleSubmit}>
+        <label>
+
+  );
+}
+
+export default App;
+
+    </script>
+    Nama:
+          <input type="text" value={nama} onChange={(e) => setNama(e.target.value)} />
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+</body>
+</html>

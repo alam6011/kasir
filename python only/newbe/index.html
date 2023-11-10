@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        
+        <div class="menu-tambahan">
+            <a href="#about"class="navbar-logo">FAUZAN <span>LONDRY</span></a>
+            <a href="login.html" class="login">LOG-IN</a>
+        </div>
+       <div class="menu">
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#produck">PRODUCK</a></li>
+            <li><a href="#kontak">KONTAK</a></li>
+            <li><a href="#katalog">PENGALAMAN</a></li><br>
+            <li><a href="#kalkulator">KALKULATOR</a></li>
+        </div>
+        
+
+    </nav>
+    <section id="about"data-aos="fade-up-left">
+    <div class="pertama">
+        <img src="projec.jpg" alt="" >
+        <h1 class="about">HELLO PERKENALKAN <br>
+             NAMA SAYA JABAR ALAM SEBAGAI <br>
+             FULL STUCK WEB DEVOLOPER</h1>
+    </div>
+    </section>
+
+    <section id="produck">
+        <div class="contain">
+        <h1 data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">kami menyediakan berbagai macam perlengkapan seperti <br>
+        SABUN <br>
+        PARFUME <br>
+        TEMPAT PENCUCIAN</h1>
+        </div>
+    </section>
+
+    <section id="kontak"data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom">
+    <div class="bar">
+        <h1>Kontak</h1>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea><br>
+        <button type="submit">Kirim Pesan</button>
+    </div>
+    </section>
+
+    <section id="katalog">
+        <!--isi katalog-->
+    </section>
+
+    <section id="kalkulator" data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom">
+        <div class="container">
+            <h1>KALKULATOR UNTUK MENGHITUNG CUCIAN</h1>
+            <table>
+                <tr>
+                    <th>No</th>
+                    <th>Jenis Cucian</th>
+                    <th>Harga per Kilo</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Cuci Kering</td>
+                    <td>6,500 RP</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Cuci Basah</td>
+                    <td>4,500 RP</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Cuci Setrika</td>
+                    <td>8,500 RP</td>
+                </tr>
+            </table>
+            <label for="menu">Pilih cucian:</label>
+            <select id="menu">
+                <option value="0">Cuci Kering</option>
+                <option value="1">Cuci Basah</option>
+                <option value="2">Cuci Setrika</option>
+            </select>
+            <label for="nama">Nama Pemesan:</label>
+            <input type="text" id="nama" placeholder="Masukkan nama pemesan">
+            <label for="alamat">Alamat Pemesan:</label>
+            <input type="text" id="alamat" placeholder="Masukkan alamat pemesan">
+            <label for="berat">Berapa kilo?</label>
+            <input type="number" id="berat" step="0.1">
+            <button id="hitung">Hitung</button>
+            <div id="hasil"></div>
+            <button id="selesai">Selesai</button>
+        </div>
+    </section>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="path/to/dist/feather.js"></script>
+    <!-- choose one -->
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        AOS.init();
+        feather.replace();
+      </script>
+</body>
+</html>

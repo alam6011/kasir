@@ -1,0 +1,168 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-weight: bold;
+    font-size: 20px;
+    background: linear-gradient( to left, #220c0c, #2e1323, #602e4f);
+    color: #fff;
+      
+}
+img {
+    width: 500px; /* Lebar gambar sekitar 200 piksel */
+    height: auto; /* Tinggi otomatis disesuaikan agar tidak terdistorsi */
+    margin: 10px; /* Membuat jarak 10 piksel di sekeliling gambar */
+    padding: 5px; /* Membuat jarak internal 5 piksel di dalam gambar */
+    position: absolute;
+    max-width: 100%;
+    display: flex;
+    justify-content: right; /* mengatur gambar ke tengah secara horizontal */
+    align-items: center; /* mengatur gambar ke tengah secara vertikal */
+}
+
+.produck {
+    background-color: rgba(255, 255, 255, 0.7); /* Menambahkan lapisan latar belakang semi-transparan di atas gambar */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#about {
+    height: 100vh; /* 100% tinggi viewport */
+    display: block;
+    height: 100%;
+}
+.pertama {
+    border-right: 200px solid #000000;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.login{
+    color: #ff7700;
+    padding-left: 78%;
+}
+.menu-tambahan{
+    display: flex;
+    list-style-type: none;
+}
+
+p{
+    color: #000000;
+}
+.navbar-logo{
+    color: #09B3E4;
+    padding-left: 2%;
+}
+.about{
+    position: absolute;
+    top: 50%; /* Mengatur posisi vertikal ke tengah */
+    left: 25%; /* Mengatur posisi horizontal ke tengah */
+    transform: translate(-50%, -50%); /* Pusatkan elemen h1 */
+    font-style: italic;
+    font-weight: bold;
+}
+
+span{
+    color: #F57D11;
+    font-weight: bold;
+}
+nav {     
+    color: #ffffff; /* Warna teks */
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Menggunakan Flexbox */
+    justify-content: flex-end; /* Menuju arah kanan*/
+}
+
+.menu li {
+    margin: 0 10px; /* Spasi antar menu */
+}
+
+.menu a {
+    text-decoration: none;
+    background-image: linear-gradient(to right, 0%, 0%, #fff6f6, #8b677b, #df90bd, #6d6369);
+    font-weight: bold;
+}
+#produck {
+    height: 100vh; /* 100% tinggi viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#kontak {
+    height: 100vh; /* 100% tinggi viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#katalog {
+    height: 100vh; /* 100% tinggi viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#kalkulator {
+    height: 100vh; /* 100% tinggi viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kalkulator{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+p{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    position: 1;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label, select, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#hasil {
+    margin-top: 20px;
+    font-weight: bold;
+}

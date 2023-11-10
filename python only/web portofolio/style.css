@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(new\ projeck.jpg);
+    background-size: covere;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav {
+    background-color: #ffffff; /* Warna latar belakang navbar */
+    color: #000000; /* Warna teks */
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Menggunakan Flexbox */
+    justify-content: flex-end; /* Menuju arah kanan */
+}
+
+.menu li {
+    margin: 0 10px; /* Spasi antar menu */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000; /* Warna teks menu */
+}
